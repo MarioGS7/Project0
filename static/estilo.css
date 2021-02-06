@@ -1,11 +1,28 @@
 .gen {
 
     display: block;
-
+    position: relative;
+    left: 30px;
 
 }
 
-.seg {
+.segd {
 
     display: inline-block;
+    width: 100px;
+    height: 10px;
+    padding: 10px;
+    position: relative;
+    right: 10%;
+}
+
+.segi {
+
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    padding: 10px;
+    position: relative;
+    left: 10%;
+
 }
