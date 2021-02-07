@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="static/estilo.css" rel="stylesheet"/>
+        <title>Homepage</title>
+    </head>
+    <body>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2aa198;">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="ipv4.html">Ipv4</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="ipv6.html">Ipv6</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="ipv6toipv4.html">Ipv6toIpv4</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1>El Avance a IPv6</h1>
+
+        <div class="gen">
+            <div class="segd">
+                <h2>Capa De Red</h2>
+                <p>La capa de red de Internet incluye el conocido protocolo IP, que define los campos del datagrama, así como la forma en que actúan los sistemas terminales y los routers sobre estos campos. Existe un único protocolo IP y todos los componentes de Internet que tienen una capa de red deben ejecutar el protocolo IP. La capa de red de Internet también contiene los protocolos de enrutamiento que determinan las rutas que los datagramas siguen entre los orígenes y los destinos. Internet dispone de muchos protocolos de enrutamiento. Aunque la capa de red contiene tanto el protocolo IP como numerosos protocolos de enrutamiento, suele hacerse referencia a ella simplemente como la capa IP, lo que refleja el hecho de que IP es el pegamento que une todo Internet. Actualmente hay dos versiones en uso de IP. En primer lugar, el protocolo IP versión 4, que habitualmente se denomina IPv4 y la versión 6 de IP, protocolo propuesto para sustituir a IPv4. Se suele referir a los paquetes de la capa de red como datagramas. El formato de los datagramas de IPv4 se muestra en la figura.</p>
+            </div>
+            <div class="segi">
+
+                <img src="static/img/ipv4.png" width="100%" hight="90%">
+
+            </div>
+
+        </div>
+
+        <div class="gen2">
+            <div class="segd">
+                <img src="static/img/rir.png" width="300" hight="300">
+
+            </div>
+            <div class="segi">
+                <h2>Agotamiento IPv4</h2>
+                <p>La IANA ha estado a cargo de distribuir direcciones IP desde 1988. Desde entonces, Internet se ha expandido a un ritmo increíble. Se predijo que los 4,200 millones de direcciones IPv4 posibles se agotarán en el largo plazo y ya casi están agotadas. Desde hace algún tiempo, la IANA ha sido la principal responsable de asignar bloques de direcciones a cinco registros regionales de Internet, o RIR:</p>
+                <ul>
+                    <li>AFRINIC, que sirve al continente africano.</li>
+                    <li>ARIN que sirve a los Estados Unidos, Canadá y partes del Caribe.</li>
+                    <li>APNIC, que es responsable de la mayor parte de Asia, Australia, Nueva Zelanda y las naciones isleñas del Pacífico.</li>
+                    <li>LACNIC que abarca América Central y del Sur y las partes del Caribe fuera de la cobertura de ARIN.</li>
+                    <li>RIPE, que sirve a Europa, Rusia, Oriente Medio y porciones de Asia Central.</li>
+
+                </ul>
+
+                <p>La IANA asignó los últimos dos bloques de direcciones de red /8 no asignados a varias RIR el 3 de febrero de 2011. Luego, en abril de 2011, APNIC se quedó sin direcciones. RIPE fue la siguiente, en septiembre de 2012. LACNIC se quedó sin direcciones para asignar en junio de 2014, en esta etapa, solo se podrá asignar bloques desde un prefijo /24 hasta un /22. Y a ARIN le ocurrió lo mismo en septiembre de 2015. Solo a AFNIC le quedan algunas IP, pero se prevé que se agotarán en 2018.</p>
+            </div>
+
+        </div>
+
+
+
+
+
+    </body>
+</html>
