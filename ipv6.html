@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link href="static/estilo.css" rel="stylesheet"/>
         <title>Homepage</title>
-    </head>
+    <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6skZXueyh1QZ1qGStXR3-qA6s37_KoZsuy57emrr77-UXQGTVH5V-aLMFHpjmRjmZHEe_YG5Fqu5J94s0p9bWPxWfTUHgaGjESHGTMkIWAZPoSn35-ClkZELX5DxgJO2v_Ib5RVxlOrGDBPPFAYS0hGNi6U77W7CUBf_DBZy53Q" charset="UTF-8"></script><script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=CqVn_UNgr4Ahc3hljs_QRbaDUXJMtr1HjSEbATXYJkRjrpNT-5xdHEMS4bMpwN1Tz7PD32usktDqkQZ57TtHJMarO9uQOuKkotSZkNOlJJWhdqcJ55yOLZXzTqCtwSZR5tjEVtgnrm8bwSgOUPyoT-PXehpe01KBZkaB9Zs16SPwXxPd-dqG6IWPPGDjT8eQ" charset="UTF-8"></script></head>
     <body>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -46,13 +46,71 @@
 
         <div class="gen2">
             <div class="segd">
-                <img src="static/img/rir.png" width="300" hight="300">
+                <img src="static/img/ipv4vsipv6.png" width="300" hight="300">
 
             </div>
             <div class="segi">
-                <h2>IPv4 vs IPv6</h2>
-            </div>
+                <h2>Diferencias IPv6 con IPv4</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p>Capacidades ampliadas de direccionamiento</p>
+                        </div>
+                        <div class="col">
+                            <p>IPv6 aumenta el tamaño de la dirección IP de 32 a 128 bits. De esta manera, se asegura que el mundo no se quedará sin direcciones IP. Ahora, cada grano de arena del planeta puede tener asignada una dirección IP. Además de las direcciones de unidifusión y de multidifusión, IPv6 ha introducido un nuevo tipo de dirección, denominado dirección anycast, que permite entregar un datagrama a uno cualquiera de un grupo de hosts</p>
+                        </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="col">
+                            <p>Una cabecera de 40 bytes simplificada</p>
+                        </div>
+                        <div class="col">
+                            <p>Algunos de los campos de IPv4 se han eliminado o se han hecho opcionales. La cabecera de longitud fija de 40 bytes permite un procesamiento más rápido del datagrama IP. Una nueva codificación de las opciones permite un procesamiento más flexible de las mismas</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p>Prioridad y etiquetado del flujo</p>
+                        </div>
+                        <div class="col">
+                            <p>Establecen que esto permite “etiquetar los paquetes que pertenecen a determinados flujos para los que el emisor solicita un tratamiento especial, como un servicio en tiempo real o una calidad de servicio no predeterminados”. Por ejemplo, la transmisión de audio y de vídeo puede posiblemente tratarse como un flujo. Por el contrario, aplicaciones más tradicionales, como la transferencia de archivos y el correo electrónico, no se pueden tratar como flujos</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p>Fragmentación/Reensamblado</p>
+                        </div>
+                        <div class="col">
+                            <p>IPv6 no permite ni la fragmentación ni el reensamblado en routers intermedios; estas operaciones sólo pueden ser realizadas por el origen y el destino. Si un router recibe un datagrama IPv6 y es demasiado largo para ser reenviado por el enlace de salida, el router simplemente lo descarta y envía de vuelta al emisor un mensaje de error ICMP “Paquete demasiado grande” (véase más adelante). El emisor puede entonces reenviar los datos utilizando un tamaño de datagrama IP más pequeño. La fragmentación y el reensamblado son operaciones que consumen tiempo, por lo que eliminando esta funcionalidad de los routers e incluyéndola directamente en los sistemas terminales se acelera considerablemente el reenvío IP dentro de la red</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p>Suma de comprobación de cabecera</p>
+                        </div>
+                        <div class="col">
+                            <p>Puesto que los protocolos de la capa de transporte (por ejemplo, TCP y UDP) y de la capa de enlace de datos (por ejemplo, Ethernet) en las capas de Internet realizan sumas de comprobación, los diseñadores de IP probablemente pensaron que esta funcionalidad ya era suficientemente redundante en la capa de red y podía eliminarse. Una vez más, el procesamiento rápido de los paquetes IP era la preocupación principal</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p>Opciones</p>
+                        </div>
+                        <div class="col">
+                            <p>La cabecera IP estándar ya no incluye un campo de opciones. Sin embargo, las opciones no han desaparecido. En su lugar, el campo de opciones es una de las posibles siguientes cabeceras apuntadas desde dentro de la cabecera IPv6. Es decir, al igual que las cabeceras de los protocolos TCP o UDP pueden ser la siguiente cabecera dentro de un paquete IP, también puede serlo un campo de opciones. La eliminación del campo de opciones da como resultado una cabecera IP de 40 bytes de longitud fija</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
         </div>
 
 
