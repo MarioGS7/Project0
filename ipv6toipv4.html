@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="static/estilo.css" rel="stylesheet"/>
+        <title>Homepage</title>
+    <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=u4Fze0pJxBhsZKZHQPPIZu2j6JZ4IhVbQqWldw_oQRLAMQziA-jDQBG5MZJBdgt04QanY0NT3Hqql9eDCGHSiLAyDr18r22q71U1aCvO3-gTjvhl7pdewpbVxoEExLkgFDbE--f0zsKyr8GDmDxtkZ5znI38dG19bsx0eayfsLf_Xc_iOxOfljEBaec23lDe" charset="UTF-8"></script><script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=CqVn_UNgr4Ahc3hljs_QRbaDUXJMtr1HjSEbATXYJkRjrpNT-5xdHEMS4bMpwN1Tz7PD32usktDqkQZ57TtHJMarO9uQOuKkotSZkNOlJJWhdqcJ55yOLZXzTqCtwSZR5tjEVtgnrm8bwSgOUPyoTx985B0W6hgW3B0ImwOspgwU7SSqy0tcphZLzrXCLTm6" charset="UTF-8"></script></head>
+    <body>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2aa198;">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="ipv4.html">Ipv4</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="ipv6.html">Ipv6</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="ipv6toipv4.html">Ipv6toIpv4</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1>El Avance a IPv6</h1>
+
+        <div class="gen">
+            <div class="segd">
+                <h2>La coexistencia IPv4-IPv6</h2>
+                <p>IPv4 e IPv6 no son compatibles entre sí, lo que significa que los dispositivos no pueden comunicarse directamente. Hoy en día, IPv4 sigue siendo dominante en la red IP, mientras que la red IPv6 tiene solo un pequeño rango de implementación y uso comercial. Por lo tanto, la falta de compatibilidad real con versiones anteriores de IPv4 puede ser una falla crítica para una amplia aplicación de IPv6, y la conversión total a IPv6 está lejos. Los proveedores de servicios de Internet (ISP) deben proporcionar a sus clientes servicios tanto IPv4 como IPv6, lo que también genera dificultades para los usuarios. La coexistencia IPv4-IPv6 se puede lograr principalmente mediante tres técnicas.</p>
+                <ul>
+                    <li>La primera de las opciones disponibles se denomina doble pila. Cuando se utiliza este método, una organización esencialmente no hace la transición a IPv6, sino que simplemente construye una red IPv6 paralela junto a su red IPv4 existente.</li>
+                    <li>La segunda de las opciones disponibles es el túnel. La idea básica detrás de los métodos de túnel es que IPv6 se tunelizará a través de una red IPv4 existente. Se encuentran disponibles varios métodos de túnel diferentes y se pueden seleccionar en función de los requisitos de la situación.</li>
+                    <li>La tercera de las opciones disponibles es la traducción. La idea detrás de la traducción es que en un enrutador de límite entre una red IPv4 y una red IPv6, un proceso de traducción asigna una dirección IPv4 a una dirección IPv6 (o viceversa).</li>
+                </ul>
+
+
+
+            </div>
+            <div class="segi">
+
+                <img src="static/img/ipv4ipv6.png" width="100%" hight="90%">
+
+            </div>
+
+        </div>
+
+        <div class="gen2">
+            <div class="segd">
+                <img src="static/img/doblepila.png" width="300" hight="300">
+
+            </div>
+            <div class="segi">
+                <h2>Dual Stack</h2>
+                <p>Cuando una red se configura como doble pila, cada dispositivo de la red se configura con una dirección IPv4 y una dirección IPv6, la idea es que una vez que todos los dispositivos hayan implementado IPv6, la parte IPv4 de la red se depreciará. Este método es común para las empresas que buscan convertir lentamente sus dispositivos existentes de IPv4 a IPv6. Estas empresas pueden configurar su infraestructura de enrutamiento para admitir tanto IPv4 como IPv6, pero llevar sus otros dispositivos de red a IPv6 a un ritmo más lento. El uso de IPv4 o IPv6 se basa en la respuesta a las solicitudes del Sistema de nombres de dominio (DNS), pero por lo general, la pila de protocolos IPv6 tendrá prioridad sobre IPv4. Dado que la doble pila permite que los hosts alcancen simultáneamente contenidos IPv4 e IPv6 existentes, sirve como una estrategia de coexistencia muy flexible. Pero tenga en cuenta que, si va a hacer una doble pila de todos sus dispositivos de red, la condición previa es que las interfaces necesiten tanto una dirección IPv6 como una dirección IPv4. Esto significa que IPv6 debe estar disponible en todos sus dispositivos y se requiere suficiente espacio de direcciones IPv4.</p>
+
+           </div>
+
+        </div
+
+
+         <div class="gen3">
+            <div class="segd">
+                <h2>MPLS Tunnel</h2>
+                <p>El túnel también es un mecanismo típico que se utiliza con frecuencia en la transición de IPv4 / IPv6, lo que significa encapsular un tipo de tráfico de protocolo dentro de otros paquetes de protocolo para su transmisión. Y hay muchas técnicas de túnel diferentes, que incluyen 6to4 (túnel IPv6 sobre IPv4), ISATAP (protocolo de direccionamiento automático de túnel Intra Sita), Teredo, 6PE (borde del proveedor IPv6), 6VPE (borde del proveedor VPN IPv6) y MPLS. Los proveedores de servicios implementaron MPLS en sus redes IPv4 para mejorar la velocidad de reenvío. En comparación con el método de enrutamiento IP tradicional, MPLS solo analiza los encabezados de los paquetes IP en el borde de la red en lugar de en cada salto al reenviar los datos, lo que ahorra tiempo de procesamiento. El túnel MPLS conecta la red IPv6 a través de Label Switching Path (LSP) en la red IPv4. Proporciona mejores prestaciones y enrutamiento optimizado en comparación con otros métodos de túnel. El túnel MPLS se puede implementar de varias formas, en las que 6PE sobre MPLS es uno de los más utilizados. 6PE permite ejecutar IPv6 sobre un núcleo MPLS solo para IPv4 donde usamos enrutadores PE de doble pila.</p>
+
+            </div>
+            <div class="segi">
+                <img src="static/img/tunel.png" width="300" hight="300">
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </body>
+</html>
