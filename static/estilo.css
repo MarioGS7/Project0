@@ -1,52 +1,54 @@
+.gen bloque1b {
+  height: 500 px;
+  top: 4%; }
+
+.gen bloque2b {
+  height: 500 px; }
+
 .gen {
+  display: block;
+  position: relative;
+  width: 1000 px; }
+  
+  .gen bloque1a {
+    height: 385 px;
+    top: 3%; }
+  .gen bloque2a {
+    height: 500 px;
+    top: 9%; }
+  .gen bloque3a {
+    height: 500 px;
+    top: 12%; }
+  .gen bloque1c {
+    height: 385 px;
+    top: 3%; }
+  .gen bloque2c {
+    height: 500 px;
+    top: 9%; }
+  .gen bloque1d {
+    height: 500 px;
+    top: 3%; }
+  .gen bloque2d {
+    height: 500 px;
+    top: 6%; }
+  .gen bloque3d {
+    height: 500 px;
+    top: 6%; }
 
-	display: block;
-	position: relative;
-	width: 1000px;
-	height: 385px;
-	top: 2%;
+.secc1, .secc2 {
+  display: inline-block;
+  position: absolute; }
 
-}
-.gen2 {
+.secc1 {
+  width: 100px;
+  height: 10px;
+  right: -75%;
+  width: 73%; }
 
-    display: block;
-	position: relative;
-	width: 1000px;
-	height: 500px;
-	top: 2%;
+.secc2 {
+  width: 64%;
+  height: 10px;
+  padding: 10px;
+  left: 10%; }
 
-}
-
-.gen3 {
-
-    display: block;
-	position: relative;
-	width: 1000px;
-	height: 500px;
-	top: 1%;
-
-}
-
-
-.segd {
-
-	display: inline-block;
-	width: 100px;
-	height: 10px;
-	position: absolute;
-	right: -75%;
-	width: 73%;
-
-}
-
-.segi {
-
-	display: inline-block;
-	width: 64%;
-	height: 10px;
-	padding: 10px;
-	position: absolute;
-	left: 10%;
-
-
-}
+/*# sourceMappingURL=estilo.css.map */

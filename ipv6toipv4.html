@@ -30,8 +30,8 @@
 
         <h1>El Avance a IPv6</h1>
 
-        <div class="gen">
-            <div class="segd">
+        <div class="gen bloque1d">
+            <div class="secc1">
                 <h2>La coexistencia IPv4-IPv6</h2>
                 <p>IPv4 e IPv6 no son compatibles entre sí, lo que significa que los dispositivos no pueden comunicarse directamente. Hoy en día, IPv4 sigue siendo dominante en la red IP, mientras que la red IPv6 tiene solo un pequeño rango de implementación y uso comercial. Por lo tanto, la falta de compatibilidad real con versiones anteriores de IPv4 puede ser una falla crítica para una amplia aplicación de IPv6, y la conversión total a IPv6 está lejos. Los proveedores de servicios de Internet (ISP) deben proporcionar a sus clientes servicios tanto IPv4 como IPv6, lo que también genera dificultades para los usuarios. La coexistencia IPv4-IPv6 se puede lograr principalmente mediante tres técnicas.</p>
                 <ul>
@@ -43,7 +43,7 @@
 
 
             </div>
-            <div class="segi">
+            <div class="secc2">
 
                 <img src="static/img/ipv4ipv6.png" width="100%" hight="90%">
 
@@ -51,12 +51,12 @@
 
         </div>
 
-        <div class="gen2">
-            <div class="segd">
+        <div class="gen bloque2d">
+            <div class="secc1">
                 <img src="static/img/doblepila.png" width="300" hight="300">
 
             </div>
-            <div class="segi">
+            <div class="secc2">
                 <h2>Dual Stack</h2>
                 <p>Cuando una red se configura como doble pila, cada dispositivo de la red se configura con una dirección IPv4 y una dirección IPv6, la idea es que una vez que todos los dispositivos hayan implementado IPv6, la parte IPv4 de la red se depreciará. Este método es común para las empresas que buscan convertir lentamente sus dispositivos existentes de IPv4 a IPv6. Estas empresas pueden configurar su infraestructura de enrutamiento para admitir tanto IPv4 como IPv6, pero llevar sus otros dispositivos de red a IPv6 a un ritmo más lento. El uso de IPv4 o IPv6 se basa en la respuesta a las solicitudes del Sistema de nombres de dominio (DNS), pero por lo general, la pila de protocolos IPv6 tendrá prioridad sobre IPv4. Dado que la doble pila permite que los hosts alcancen simultáneamente contenidos IPv4 e IPv6 existentes, sirve como una estrategia de coexistencia muy flexible. Pero tenga en cuenta que, si va a hacer una doble pila de todos sus dispositivos de red, la condición previa es que las interfaces necesiten tanto una dirección IPv6 como una dirección IPv4. Esto significa que IPv6 debe estar disponible en todos sus dispositivos y se requiere suficiente espacio de direcciones IPv4.</p>
 
@@ -65,13 +65,13 @@
         </div>
 
 
-         <div class="gen3">
-            <div class="segd">
+         <div class="gen bloque3d">
+            <div class="secc1">
                 <h2>MPLS Tunnel</h2>
                 <p>El túnel también es un mecanismo típico que se utiliza con frecuencia en la transición de IPv4 / IPv6, lo que significa encapsular un tipo de tráfico de protocolo dentro de otros paquetes de protocolo para su transmisión. Y hay muchas técnicas de túnel diferentes, que incluyen 6to4 (túnel IPv6 sobre IPv4), ISATAP (protocolo de direccionamiento automático de túnel Intra Sita), Teredo, 6PE (borde del proveedor IPv6), 6VPE (borde del proveedor VPN IPv6) y MPLS. Los proveedores de servicios implementaron MPLS en sus redes IPv4 para mejorar la velocidad de reenvío. En comparación con el método de enrutamiento IP tradicional, MPLS solo analiza los encabezados de los paquetes IP en el borde de la red en lugar de en cada salto al reenviar los datos, lo que ahorra tiempo de procesamiento. El túnel MPLS conecta la red IPv6 a través de Label Switching Path (LSP) en la red IPv4. Proporciona mejores prestaciones y enrutamiento optimizado en comparación con otros métodos de túnel. El túnel MPLS se puede implementar de varias formas, en las que 6PE sobre MPLS es uno de los más utilizados. 6PE permite ejecutar IPv6 sobre un núcleo MPLS solo para IPv4 donde usamos enrutadores PE de doble pila.</p>
 
             </div>
-            <div class="segi">
+            <div class="secc2">
                 <img src="static/img/tunel.png" width="300" hight="300">
             </div>
 

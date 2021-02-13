@@ -1,0 +1,126 @@
+
+$alt1atp: 3%;
+$alt2atp: 9%;
+$alt3atp: 12%;
+$alt4atp: 6%;
+
+$alto1a: 385 px;
+$alto2a: 500 px;
+
+
+%conf1{
+
+	height: 500 px;
+	top: 4%;
+}
+
+%conf2{
+
+	height: 500 px;
+
+
+}
+
+
+.gen{	
+	display: block;
+	position: relative;
+	width: 1000 px;
+
+	bloque1a{	
+	
+		height: $alto1a;
+		top: $alt1atp;
+	
+	}
+
+
+	bloque2a{
+	
+		height: $alto2a;
+	        top: $alt2atp;
+	}
+
+	bloque3a{
+
+		height: $alto2a;
+        	top: $alt3atp;
+
+	}
+
+	bloque1b{
+		@extend %conf1;
+			
+			
+	}
+
+	bloque2b{
+
+		@extend %conf2;	
+	}
+
+	
+	bloque1c{
+
+		height: $alto1a;
+		top: $alt1atp;
+
+		
+	}
+
+	bloque2c{
+
+		height: $alto2a;
+	        top: $alt2atp;
+
+	}
+
+	
+	bloque1d{
+
+		height: $alto2a;
+		top: $alt1atp;
+		
+			
+	}
+
+	bloque2d{
+		height: $alto2a;
+		top: $alt4atp;
+		
+			
+	}
+
+	bloque3d{
+		height: $alto2a;
+		top: $alt4atp;
+		
+			
+	}
+
+
+}
+
+%secc{
+	display: inline-block;
+	position: absolute;
+}
+
+
+.secc1{
+	@extend %secc;
+	width: 100px;
+	height: 10px;
+	right: -75%;
+	width: 73%;
+
+}
+
+.secc2{
+	@extend %secc;
+	width: 64%;
+	height: 10px;
+	padding: 10px;
+	left: 10%;
+
+}
