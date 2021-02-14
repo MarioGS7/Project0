@@ -25,27 +25,59 @@
     height: 500px;
     top: 9%; }
   .gen-bloque1d {
-    height: 500px;
+    height: 560px;
     top: 3%; }
   .gen-bloque2d {
     height: 500px;
-    top: 6%; }
-  .gen-loque3d {
+    top: 9%; }
+  .gen-bloque3d {
     height: 500px;
-    top: 6%; }
+    top: 9%; }
 
-.secc1, .secc2 {
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
   display: inline-block;
   position: absolute; }
 
 .secc1 {
-  height: 10px;
   right: -75%;
   width: 73%; }
 
 .secc2 {
   width: 64%;
-  height: 10px;
   left: 10%; }
+
+#secc22 {
+  width: 82%;
+  left: 10%; }
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 64%;
+  left: 10%;
+  top: 24%; }
+
+#secc11b {
+  right: -75%;
+  width: 73%;
+  top: 15%; }
+
+#secc11c {
+  right: -75%;
+  width: 73%;
+  top: 36%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
 
 /*# sourceMappingURL=estilo.css.map */
