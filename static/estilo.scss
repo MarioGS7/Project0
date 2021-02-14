@@ -1,22 +1,23 @@
 
+
 $alt1atp: 3%;
 $alt2atp: 9%;
 $alt3atp: 12%;
 $alt4atp: 6%;
 
-$alto1a: 385 px;
-$alto2a: 500 px;
+$alto1a: 385px;
+$alto2a: 500px;
 
 
 %conf1{
 
-	height: 500 px;
+	height: 500px;
 	top: 4%;
 }
 
 %conf2{
 
-	height: 500 px;
+	height: 500px;
 
 
 }
@@ -25,9 +26,9 @@ $alto2a: 500 px;
 .gen{	
 	display: block;
 	position: relative;
-	width: 1000 px;
+	width: 1000px;
 
-	bloque1a{	
+	&-bloque1a{	
 	
 		height: $alto1a;
 		top: $alt1atp;
@@ -35,32 +36,32 @@ $alto2a: 500 px;
 	}
 
 
-	bloque2a{
+	&-bloque2a{
 	
 		height: $alto2a;
 	        top: $alt2atp;
 	}
 
-	bloque3a{
+	&-bloque3a{
 
 		height: $alto2a;
         	top: $alt3atp;
 
 	}
 
-	bloque1b{
+	&-bloque1b{
 		@extend %conf1;
 			
 			
 	}
 
-	bloque2b{
+	&-bloque2b{
 
 		@extend %conf2;	
 	}
 
 	
-	bloque1c{
+	&-bloque1c{
 
 		height: $alto1a;
 		top: $alt1atp;
@@ -68,7 +69,7 @@ $alto2a: 500 px;
 		
 	}
 
-	bloque2c{
+	&-bloque2c{
 
 		height: $alto2a;
 	        top: $alt2atp;
@@ -76,7 +77,7 @@ $alto2a: 500 px;
 	}
 
 	
-	bloque1d{
+	&-bloque1d{
 
 		height: $alto2a;
 		top: $alt1atp;
@@ -84,14 +85,14 @@ $alto2a: 500 px;
 			
 	}
 
-	bloque2d{
+	&-bloque2d{
 		height: $alto2a;
 		top: $alt4atp;
 		
 			
 	}
 
-	bloque3d{
+	&-loque3d{
 		height: $alto2a;
 		top: $alt4atp;
 		
@@ -108,8 +109,7 @@ $alto2a: 500 px;
 
 
 .secc1{
-	@extend %secc;
-	width: 100px;
+	@extend %secc; 
 	height: 10px;
 	right: -75%;
 	width: 73%;
@@ -117,6 +117,7 @@ $alto2a: 500 px;
 }
 
 .secc2{
+
 	@extend %secc;
 	width: 64%;
 	height: 10px;
@@ -124,3 +125,4 @@ $alto2a: 500 px;
 	left: 10%;
 
 }
+

@@ -1,38 +1,37 @@
-.gen bloque1b {
-  height: 500 px;
+.gen-bloque1b {
+  height: 500px;
   top: 4%; }
 
-.gen bloque2b {
-  height: 500 px; }
+.gen-bloque2b {
+  height: 500px; }
 
 .gen {
   display: block;
   position: relative;
-  width: 1000 px; }
-  
-  .gen bloque1a {
-    height: 385 px;
+  width: 1000px; }
+  .gen-bloque1a {
+    height: 385px;
     top: 3%; }
-  .gen bloque2a {
-    height: 500 px;
+  .gen-bloque2a {
+    height: 500px;
     top: 9%; }
-  .gen bloque3a {
-    height: 500 px;
+  .gen-bloque3a {
+    height: 500px;
     top: 12%; }
-  .gen bloque1c {
-    height: 385 px;
+  .gen-bloque1c {
+    height: 385px;
     top: 3%; }
-  .gen bloque2c {
-    height: 500 px;
+  .gen-bloque2c {
+    height: 500px;
     top: 9%; }
-  .gen bloque1d {
-    height: 500 px;
+  .gen-bloque1d {
+    height: 500px;
     top: 3%; }
-  .gen bloque2d {
-    height: 500 px;
+  .gen-bloque2d {
+    height: 500px;
     top: 6%; }
-  .gen bloque3d {
-    height: 500 px;
+  .gen-loque3d {
+    height: 500px;
     top: 6%; }
 
 .secc1, .secc2 {
@@ -40,7 +39,6 @@
   position: absolute; }
 
 .secc1 {
-  width: 100px;
   height: 10px;
   right: -75%;
   width: 73%; }
