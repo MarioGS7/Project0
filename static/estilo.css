@@ -81,3 +81,793 @@ h2 {
   text-align: center; }
 
 /*# sourceMappingURL=estilo.css.map */
+
+
+
+
+
+
+@media only screen and (max-width: 1754px){
+
+
+.gen-bloque1b {
+  height: 500px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 500px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 1000px; }
+  .gen-bloque1a {
+    height: 385px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 500px;
+    top: 9%; }
+  .gen-bloque3a {
+    height: 500px;
+    top: 12%; }
+  .gen-bloque1c {
+    height: 385px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 9%; }
+  .gen-bloque1d {
+    height: 560px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 500px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: inline-block;
+  position: absolute; }
+
+.secc1 {
+  right: -65%;
+  width: 73%; }
+
+.secc2 {
+  width: 64%;
+  left: 16%; }
+
+#secc22 {
+  width: 82%;
+  left: 10%; }
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 64%;
+  left: 16%;
+  top: 24%; }
+
+#secc11b {
+  right: -65%;
+  width: 73%;
+  top: 15%; }
+
+#secc11c {
+  right: -67%;
+  width: 73%;
+  top: 36%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1656px){
+
+
+.gen-bloque1b {
+  height: 500px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 500px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 1000px; }
+  .gen-bloque1a {
+    height: 385px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 500px;
+    top: 9%; }
+  .gen-bloque3a {
+    height: 500px;
+    top: 12%; }
+  .gen-bloque1c {
+    height: 385px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 9%; }
+  .gen-bloque1d {
+    height: 560px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 500px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: inline-block;
+  position: absolute; }
+
+.secc1 {
+  right: -55%;
+  width: 73%; }
+
+.secc2 {
+  width: 64%;
+  left: 16%; }
+
+#secc22 {
+  width: 75%;
+  left: 5%; }
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 64%;
+  left: 16%;
+  top: 24%; }
+
+#secc11b {
+  right: -56%;
+  width: 73%;
+  top: 15%; }
+
+#secc11c {
+  right: -55%;
+  width: 73%;
+  top: 36%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1655px){
+
+
+.gen-bloque1b {
+  height: 752px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 1360px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 39%; }
+
+
+  .gen-bloque1a {
+    height: 796px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 1086px;
+    top: 2%; }
+  .gen-bloque3a {
+    height: 1000px;
+    top: 5%; }
+  .gen-bloque1c {
+    height: 782px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 4%; }
+  .gen-bloque1d {
+    height: 1035px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 849px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: block;
+  position: relative;
+  margin: auto;}
+
+.secc1 {
+  width: 122%; }
+
+.secc2 {
+  width: 109%;
+  top: 6%;
+
+  margin-left: 46%; }
+
+#secc22 {
+  width: 97%;
+  left: 69%;
+  top: 12%;}
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 101%;
+  left: 65%;
+  top: 3%; }
+
+#secc11b {
+  right: -56%;
+  width: 115%;
+  top: 4%;
+  }
+
+#secc11c {
+  right: -68%;
+  width: 100%;
+  top: 6%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1664px){
+
+
+.gen-bloque1b {
+  height: 752px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 1590px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 39%; }
+
+
+  .gen-bloque1a {
+    height: 846px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 1104px;
+    top: 2%; }
+  .gen-bloque3a {
+    height: 1000px;
+    top: 5%; }
+  .gen-bloque1c {
+    height: 800px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 4%; }
+  .gen-bloque1d {
+    height: 1128px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 899px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: block;
+  position: relative;
+  margin: auto;}
+
+.secc1 {
+  width: 122%; }
+
+.secc2 {
+  width: 109%;
+
+
+  margin-left: 46%; }
+
+#secc22 {
+  width: 118%;
+  left: 62%;
+  top: 12%;}
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 101%;
+  left: 65%;
+  top: 3%; }
+
+#secc11b {
+  right: -56%;
+  width: 115%;
+  top: 4%;
+
+  }
+
+#secc11c {
+  right: -68%;
+  width: 100%;
+  top: 6%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1015px){
+
+
+.gen-bloque1b {
+  height: 770px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 1590px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 39%; }
+
+
+  .gen-bloque1a {
+    height: 848px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 1149px;
+    top: 2%; }
+  .gen-bloque3a {
+    height: 1000px;
+    top: 5%; }
+  .gen-bloque1c {
+    height: 818px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 4%; }
+  .gen-bloque1d {
+    height: 1128px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 916px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: block;
+  position: relative;
+  margin: auto;}
+
+.secc1 {
+  width: 122%; }
+
+.secc2 {
+  width: 109%;
+
+
+  margin-left: 46%; }
+
+#secc22 {
+  width: 118%;
+  left: 62%;
+  top: 12%;}
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 101%;
+  left: 65%;
+  top: 3%; }
+
+#secc11b {
+  right: -56%;
+  width: 115%;
+  top: 4%;
+
+  }
+
+#secc11c {
+  right: -68%;
+  width: 100%;
+  top: 6%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1013px){
+
+
+.gen-bloque1b {
+  height: 752px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 1590px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 39%; }
+
+
+  .gen-bloque1a {
+    height: 796px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 1104px;
+    top: 2%; }
+  .gen-bloque3a {
+    height: 1000px;
+    top: 5%; }
+  .gen-bloque1c {
+    height: 800px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 4%; }
+  .gen-bloque1d {
+    height: 1128px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 920px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: block;
+  position: relative;
+  margin: auto;}
+
+.secc1 {
+  width: 122%; }
+
+.secc2 {
+  width: 109%;
+
+
+  margin-left: 46%; }
+
+#secc22 {
+  width: 118%;
+  left: 62%;
+  top: 12%;}
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 101%;
+  left: 65%;
+  top: 3%; }
+
+#secc11b {
+  right: -56%;
+  width: 115%;
+  top: 4%;
+
+  }
+
+#secc11c {
+  right: -68%;
+  width: 100%;
+  top: 6%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1012px){
+
+
+.gen-bloque1b {
+  height: 882px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 1590px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 39%; }
+
+
+  .gen-bloque1a {
+    height: 944px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 1104px;
+     }
+  .gen-bloque3a {
+    height: 1000px;
+     }
+  .gen-bloque1c {
+    height: 942px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 4%; }
+  .gen-bloque1d {
+    height: 1275px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 920px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: block;
+  position: relative;
+  margin: auto;}
+
+.secc1 {
+  width: 177%;
+  left:40%; }
+
+.secc2 {
+  width: 188%;
+
+
+  margin-left: 20%; }
+
+#secc22 {
+  width: 202%;
+  left: 31%;
+  top: 12%;}
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 176%;
+  left: 39%;
+  top: 3%; }
+
+#secc11b {
+  right: -22%;
+  width: 214%;
+  top: 4%;
+
+  }
+
+#secc11c {
+  right: -34%;
+  width: 194%;
+  top: 6%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+}
+
+@media only screen and (max-width: 549px){
+
+
+.gen-bloque1b {
+  height: 1077px;
+  top: 4%; }
+
+.gen-bloque2b {
+  height: 1590px; }
+
+.gen {
+  display: block;
+  position: relative;
+  width: 39%; }
+
+
+  .gen-bloque1a {
+    height: 1129px;
+    top: 3%; }
+  .gen-bloque2a {
+    height: 1328px;
+     }
+  .gen-bloque3a {
+    height: 1000px;
+     }
+  .gen-bloque1c {
+    height: 1145px;
+    top: 3%; }
+  .gen-bloque2c {
+    height: 500px;
+    top: 4%; }
+  .gen-bloque1d {
+    height: 1689px;
+    top: 3%; }
+  .gen-bloque2d {
+    height: 1106px;
+    top: 9%; }
+  .gen-bloque3d {
+    height: 500px;
+    top: 9%; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  display: block;
+  position: relative;
+  margin: auto;}
+
+.secc1 {
+  width: 177%;
+  left:40%; }
+
+.secc2 {
+  width: 188%;
+
+  top: 2%;
+  margin-left: 20%; }
+
+#secc22 {
+  width: 202%;
+  left: 31%;
+  top: 12%;}
+
+img {
+  display: block;
+  margin: auto; }
+
+.secc1, .secc2, #secc22, #secc22a, #secc11b, #secc11c {
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px; }
+
+#secc22a {
+  width: 176%;
+  left: 39%;
+  top: 3%; }
+
+#secc11b {
+  right: -22%;
+  width: 214%;
+  top: 4%;
+
+  }
+
+#secc11c {
+  right: -34%;
+  width: 194%;
+  top: 6%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+
+}
+
