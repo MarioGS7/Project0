@@ -24,21 +24,21 @@ $alto3a: 560px;
 }
 
 
-.gen{	
+.gen{
 	display: block;
 	position: relative;
 	width: 1000px;
 
-	&-bloque1a{	
-	
+	&-bloque1a{
+
 		height: $alto1a;
 		top: $alt1atp;
-	
+
 	}
 
 
 	&-bloque2a{
-	
+
 		height: $alto2a;
 	        top: $alt2atp;
 	}
@@ -52,22 +52,22 @@ $alto3a: 560px;
 
 	&-bloque1b{
 		@extend %conf1;
-			
-			
+
+
 	}
 
 	&-bloque2b{
 
-		@extend %conf2;	
+		@extend %conf2;
 	}
 
-	
+
 	&-bloque1c{
 
 		height: $alto1a;
 		top: $alt1atp;
 
-		
+
 	}
 
 	&-bloque2c{
@@ -77,112 +77,659 @@ $alto3a: 560px;
 
 	}
 
-	
+
 	&-bloque1d{
 
 		height: $alto3a;
 		top: $alt1atp;
-		
-			
+
+
 	}
 
 	&-bloque2d{
 		height: $alto2a;
 		top: $alt2atp;
-		
-			
+
+
 	}
 
 	&-bloque3d{
 		height: $alto2a;
 		top: $alt2atp;
-		
-			
+
+
+	}
+
+@media only screen and (max-width: 1754px){
+
+
+	&-bloque1a{
+
+		height: 385px;
+		top: 3%;
+
+	}
+
+
+	&-bloque2a{
+
+		height: 500px;
+	        top: 9%;
+	}
+
+	&-bloque3a{
+
+		height: 500px;
+        	top: 12%;
+
+	}
+
+	&-bloque1b{
+		height: 500px;
+        	top: 4%;
+
+	}
+
+	&-bloque2b{
+
+		height: 500px;
+
+	}
+
+
+	&-bloque1c{
+
+		height: 385px;
+		top: 3%;
+
+
+	}
+
+	&-bloque2c{
+
+		height: 500px;
+	        top: 9%;
+
+	}
+
+
+	&-bloque1d{
+
+		height: 560px;
+		top: 3%;
+
+
+	}
+
+	&-bloque2d{
+		height: 500px;
+		top: 9%;
+
+
+	}
+
+	&-bloque3d{
+		height: 500px;
+		top: 9%;
+
+
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1664px){
+
+
+.gen{
+	display: block;
+	position: relative;
+	width: 39%;
+
+
+
+
+	&-bloque1a{
+
+		height: 902px;
+   		 top: 3%;
+
+	}
+
+
+	&-bloque2a{
+
+		 height: 1054px;
+
+
+	}
+
+	&-bloque3a{
+
+		height: 1000px;
+
+	}
+
+	&-bloque1b{
+		height: 905px;
+ 		 top: 4%;
+
+
+	}
+
+	&-bloque2b{
+
+	 height: 1054px;
+	}
+
+
+	&-bloque1c{
+
+		 height: 882px;
+		 top: 3%;
+
+
+	}
+
+	&-bloque2c{
+
+		 height: 500px;
+   		 top: 4%;
+
+	}
+
+
+	&-bloque1d{
+
+		 height: 1134px;
+  		  top: 3%;
+
+
+	}
+
+	&-bloque2d{
+		 height: 849px;
+   		 top: 9%;
+
+
+	}
+
+	&-bloque3d{
+		  height: 500px;
+    	top: 9%;
+
+
+	}
+
+
+
+
+@media only screen and (max-width: 900px){
+
+
+
+	&-bloque2a{
+
+		height: 1141px;
+
+	}
+
+	&-bloque1c{
+
+		height: 913px;
+   		 top: 3%;
+
+	}
+
+	&-bloque1d{
+
+		height: 1286px;
+   		 top: 3%;
+
+	}
+
+
+	&-bloque2d{
+
+		height: 928px;
+   		 top: 9%;
+
 	}
 
 
 }
 
-%secc{
+@media only screen and (max-width: 700px){
+
+
+	&-bloque1a{
+
+	height: 975px;
+    top: 3%; }
+
+
+     &-bloque2a {
+    height: 1256px;
+     }
+
+  &-bloque1b {
+  height: 968px;
+  top: 4%; }
+
+
+ &-bloque1c {
+    height: 1017px;
+    top: 3%; }
+
+
+
+&-bloque1d {
+    height: 1402px;
+    top: 3%; }
+  &-bloque2d {
+    height: 997px;
+    top: 9%; }
+
+
+}
+
+@media only screen and (max-width: 631px){
+
+&-bloque1d {
+    height: 1452px;
+    top: 3%; }
+&-bloque2d {
+    height: 1044px;
+    top: 9%; }
+
+
+
+
+
+
+}
+@media only screen and (max-width: 600px){
+
+ &-bloque1a {
+    height: 1167px;
+    top: 3%; }
+  &-bloque2a {
+    height: 1400px;
+     }
+
+	&-bloque1b {
+  height: 1046px;
+  top: 4%; }
+
+
+
+	&-bloque1c {
+ 	 height: 1117px;
+	  top: 4%; }
+
+
+ &-bloque1d {
+    height: 1601px;
+    top: 3%; }
+  &-bloque2d {
+    height: 1142px;
+    top: 9%; }
+
+
+
+
+
+}
+@media only screen and (max-width: 527px){
+
+
+
+	&-bloque1b {
+ 	 height: 1118px;
+	  top: 4%; }
+
+
+&-bloque1c {
+ 	 height: 1208px;
+	  top: 4%; }
+
+&-bloque1d {
+    height: 1709px;
+    top: 3%; }
+  &-bloque2d {
+    height: 1222px;
+    top: 9%; }
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+@mixin secc{
 	display: inline-block;
 	position: absolute;
 }
 
+@mixin secc1{
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+
+
+
+
+@mixin borde1{
+	padding: 3px 10px;
+	border: PowderBlue 5px solid;
+	border-radius: 20px;
+
+}
+
+
+
+
+
 
 .secc1{
-	@extend %secc; 
+	@include secc;
 	right: -75%;
 	width: 73%;
-	@extend %borde1;
+	@include borde1;
 
 }
 
 .secc2{
 
-	@extend %secc;
+	@include secc;
 	width: 64%;
 	left: 10%;
-	@extend %borde1;
+	@include borde1;
 }
 
 #secc22{
-	
-	@extend %secc;
+
+	@include secc;
 	width: 82%;
 	left: 10%;
-	@extend %borde1;
-	
+	@include borde1;
+
 	}
+
+
+
+#secc22a{
+
+	@include secc;
+	width: 64%;
+	left: 10%;
+	top: 24%;
+	@include borde1;
+}
+
+
+#secc11b{
+
+	@include secc;
+	right: -75%;
+	width: 73%;
+	top: 15%;
+	@include borde1;
+
+}
+
+#secc11c{
+
+	@include secc;
+	right: -75%;
+	width: 73%;
+	top: 36%;
+	@include borde1;
+
+}
+
+
+
+
+@media only screen and (max-width: 1754px){
+
+
+
+
+
+.secc1{
+	@include secc;
+	right: -65%;
+	width: 73%;
+	@include borde1;
+
+}
+
+.secc2{
+
+	@include secc;
+	width: 64%;
+	left: 16%;
+	@include borde1;
+}
+
+#secc22{
+
+	@include secc;
+	width: 82%;
+	left: 10%;
+	@include borde1;
+
+	}
+
+
+
+#secc22a{
+
+	@include secc;
+	width: 64%;
+	left: 16%;
+	top: 24%;
+	@include borde1;
+}
+
+
+#secc11b{
+
+	@include secc;
+	right: -65%;
+	width: 73%;
+	top: 15%;
+	@include borde1;
+
+}
+
+#secc11c{
+
+	@include secc;
+	right: -67%;
+	width: 73%;
+	top: 36%;
+	@include borde1;
+
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1664px){
+
+
+
+
+.secc1{
+	@include secc1;
+	left: 69%;
+	width: 125%;
+	@include borde1;
+
+}
+
+.secc2{
+
+	@include secc1;
+	width: 125%;
+	left: 69%;
+	top: 6%;
+	@include borde1;
+}
+
+#secc22{
+
+	@include secc1;
+	width: 125%;
+	left: 69%;
+	top: 12%;
+	@include borde1;
+
+	}
+
+
+
+#secc22a{
+
+	@include secc1;
+	width: 125%;
+	left: 69%;
+	top: 3%;
+	@include borde1;
+}
+
+
+#secc11b{
+
+	@include secc1;
+	width: 125%;
+    left: 69%;
+    top: 4%;
+	@include borde1;
+
+}
+
+#secc11c{
+
+	@include secc1;
+	width: 125%;
+    left: 69%;
+    top: 6%;
+	@include borde1;
+
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1064px){
+
+
+
+.secc1{
+	@include secc1;
+	width: 142%;
+    left: 61%;
+	@include borde1;
+
+}
+
+.secc2{
+
+	@include secc1;
+	width: 142%;
+   left: 61%;
+   top: 6%;
+	@include borde1;
+}
+
+#secc22{
+
+	@include secc1;
+	width: 142%;
+   left: 61%;
+  top: 12%;
+	@include borde1;
+
+	}
+
+
+
+
+#secc11c{
+
+	@include secc1;
+	width: 142%;
+    left: 61%;
+  top: 6%;
+	@include borde1;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 img{
 	display: block;
 	margin: auto;
 
 }
-
-
-
-
-%borde1{
-	padding: 3px 10px;
-	border: PowderBlue 5px solid;
-	border-radius: 20px;	
-
-}
-
-#secc22a{
-
-	@extend %secc;
-	width: 64%;
-	left: 10%;
-	top: 24%;
-	@extend %borde1;
-}
-
-
-#secc11b{
-
-	@extend %secc;
-	right: -75%;
-	width: 73%;
-	top: 15%;
-	@extend %borde1;
-
-}
-
-#secc11c{
-	
-	@extend %secc;
-	right: -75%;
-	width: 73%;
-	top: 36%;
-	@extend %borde1;
-
-}
-
-
-
-
 
 
 
