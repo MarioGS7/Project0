@@ -464,7 +464,7 @@ $alto3a: 560px;
 
 
   &-bloque2a {
-    height: 1758px;
+    height: 1783px;
      }
 
 
@@ -475,7 +475,7 @@ $alto3a: 560px;
 
 
 &-bloque1c {
- 	 height: 1431px;
+ 	 height: 1456px;
 	  top: 4%; }
 
 
@@ -785,7 +785,24 @@ $alto3a: 560px;
 
 }
 
+@media only screen and (max-width: 500px){
 
+
+#secc22{
+
+	@include secc1;
+	width: 181%;
+   left: 42%;
+  top: 12%;
+	@include borde1;
+
+	}
+
+
+
+
+
+}
 
 
 
