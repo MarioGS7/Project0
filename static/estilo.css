@@ -164,6 +164,42 @@
     .gen-bloque2d {
       height: 1222px;
       top: 9%; } }
+  @media only screen and (max-width: 1664px) and (max-width: 500px) {
+    .gen-bloque1a {
+      height: 1212px;
+      top: 3%; }
+    .gen-bloque2a {
+      height: 1526px; }
+    .gen-bloque1b {
+      height: 1190px;
+      top: 4%; }
+    .gen-bloque1c {
+      height: 1311px;
+      top: 4%; }
+    .gen-bloque1d {
+      height: 1884px;
+      top: 3%; }
+    .gen-bloque2d {
+      height: 1313px;
+      top: 9%; } }
+  @media only screen and (max-width: 1664px) and (max-width: 456px) {
+    .gen-bloque1a {
+      height: 1359px;
+      top: 3%; }
+    .gen-bloque2a {
+      height: 1758px; }
+    .gen-bloque1b {
+      height: 1333px;
+      top: 4%; }
+    .gen-bloque1c {
+      height: 1431px;
+      top: 4%; }
+    .gen-bloque1d {
+      height: 2132px;
+      top: 3%; }
+    .gen-bloque2d {
+      height: 1428px;
+      top: 9%; } }
 
 .secc1 {
   display: inline-block;
